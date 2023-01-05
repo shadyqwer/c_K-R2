@@ -4,7 +4,7 @@
 int main(void)
 {
     int c, pos = 0;
-    while ((c = getchar())  != '~')
+    while ((c = getchar())  != EOF)
     {
         if (c == '\t')
         {
